@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Suisse";
+  src: local("Suisse"), url("./SuisseIntl-Regular.woff");
+  font-weight: 300;
+}
+
 //=== COLOR VARIABLES ===================
 $dark-red: #b01e19;
 $light-red: #cd100a;
@@ -10,7 +16,7 @@ $beige: #f7f4f4;
 html,
 body {
   height: 100%;
-  font-family: "Suisse Intl", "Arial", sans-serif;
+  font-family: "Suisse", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
