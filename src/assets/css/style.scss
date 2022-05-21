@@ -281,13 +281,13 @@ a {
 //=== BANNER ===================
 .banner {
   width: 100%;
+  overflow: hidden;
   height: 595px;
-  padding: 40px;
+  // padding: 40px;
   display: flex;
-  background: url("../images/slide-1.png") left no-repeat,
-    url("../images/domesticity.png") right no-repeat;
-  flex-direction: column;
-  justify-content: space-between;
+  // background: url("../images/slide-1.png") left no-repeat,
+  //   url("../images/domesticity.png") right no-repeat;
+  justify-content: flex-start;
   margin-bottom: 120px;
   // .banner__header
   &__header {
