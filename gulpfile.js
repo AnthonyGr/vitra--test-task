@@ -3,7 +3,7 @@
 const gulp = require("gulp");
 const webpack = require("webpack-stream");
 const browsersync = require("browser-sync");
-var ghPages = require('gulp-gh-pages');
+var ghPages = require("gulp-gh-pages");
 
 const dist = "./dist/";
 
@@ -116,7 +116,6 @@ gulp.task("build-prod-js", () => {
 
 gulp.task("default", gulp.parallel("watch", "build"));
 
-gulp.task('deploy', function() {
-  return gulp.src('./build/**/*')
-    .pipe(ghPages());
+gulp.task("deploy", function () {
+  return gulp.src("./dist/**/*").pipe(ghPages());
 });
